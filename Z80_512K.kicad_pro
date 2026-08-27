@@ -525,7 +525,7 @@
       "idf": "",
       "netlist": "",
       "plot": "",
-      "specctra_dsn": "",
+      "specctra_dsn": "../../../Downloads/Z80_512K.dsn",
       "vrml": ""
     },
     "page_layout_descr_file": ""
@@ -648,7 +648,7 @@
         "uuid": "1dee2e6f-8929-455d-a1de-5fd790cf69ac"
       }
     ],
-    "used_designators": "J1",
+    "used_designators": "RN2,J1",
     "variants": []
   },
   "sheets": [
