@@ -8,7 +8,7 @@ This one start as independent Z80 system, target at 10Mhz clock & put any I/O in
 ![Alt](https://github.com/thetrung/Z80-512K/blob/main/3D_Preview.png)
 
 ### Placement (SilkScreen)
-![Alt](https://github.com/thetrung/Z80-512K/blob/main/Silkscreen.png)
+![Alt](https://github.com/thetrung/Z80-512K/blob/main/SilkScreen.png)
 
 ### Schematic 
 ![Alt](https://github.com/thetrung/Z80-512K/blob/main/Schematic.png)

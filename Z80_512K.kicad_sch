@@ -5129,7 +5129,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Device:R_Network05"
+		(symbol "Device:R_Network04"
 			(pin_names
 				(offset 0)
 				(hide yes)
@@ -5149,8 +5149,8 @@
 					)
 				)
 			)
-			(property "Value" "R_Network05"
-				(at 7.62 0 90)
+			(property "Value" "R_Network04"
+				(at 5.08 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(effects
@@ -5159,8 +5159,8 @@
 					)
 				)
 			)
-			(property "Footprint" "Resistor_THT:R_Array_SIP6"
-				(at 9.525 0 90)
+			(property "Footprint" "Resistor_THT:R_Array_SIP5"
+				(at 6.985 0 90)
 				(show_name no)
 				(do_not_autoplace no)
 				(hide yes)
@@ -5181,7 +5181,7 @@
 					)
 				)
 			)
-			(property "Description" "5 resistor network, star topology, bussed resistors, small symbol"
+			(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
 				(at 0 0 0)
 				(show_name no)
 				(do_not_autoplace no)
@@ -5214,10 +5214,10 @@
 					)
 				)
 			)
-			(symbol "R_Network05_0_1"
+			(symbol "R_Network04_0_1"
 				(rectangle
 					(start -6.35 -3.175)
-					(end 6.35 3.175)
+					(end 3.81 3.175)
 					(stroke
 						(width 0.254)
 						(type default)
@@ -5375,29 +5375,6 @@
 						(type none)
 					)
 				)
-				(circle
-					(center 2.54 2.286)
-					(radius 0.254)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type outline)
-					)
-				)
-				(polyline
-					(pts
-						(xy 2.54 1.524) (xy 2.54 2.286) (xy 5.08 2.286) (xy 5.08 1.524)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 				(polyline
 					(pts
 						(xy 2.54 -2.54) (xy 2.54 -3.81)
@@ -5410,31 +5387,8 @@
 						(type none)
 					)
 				)
-				(rectangle
-					(start 4.318 1.524)
-					(end 5.842 -2.54)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 5.08 -2.54) (xy 5.08 -3.81)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
 			)
-			(symbol "R_Network05_1_1"
+			(symbol "R_Network04_1_1"
 				(pin passive line
 					(at -5.08 5.08 270)
 					(length 2.54)
@@ -5518,24 +5472,6 @@
 						)
 					)
 					(number "5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 5.08 -5.08 90)
-					(length 1.27)
-					(name "R5"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "6"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -8629,12 +8565,6 @@
 		(uuid "2152c740-a6a1-47d6-a7ee-4cefcc0c39e0")
 	)
 	(junction
-		(at 199.39 104.14)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "230051fa-df06-47f6-b74f-6af5434a54b7")
-	)
-	(junction
 		(at 260.35 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8675,6 +8605,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "5ef6735c-b7f9-42cd-ba6a-35efbe7c4ddc")
+	)
+	(junction
+		(at 199.39 104.14)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "61e575ba-b876-4c6f-ac4a-1cdab0cae2a7")
 	)
 	(junction
 		(at 31.75 177.8)
@@ -8850,16 +8786,6 @@
 	)
 	(wire
 		(pts
-			(xy 50.8 143.51) (xy 60.96 143.51)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "058141b9-7cdf-4593-9550-1ba6af3d43c1")
-	)
-	(wire
-		(pts
 			(xy 22.86 52.07) (xy 33.02 52.07)
 		)
 		(stroke
@@ -8890,7 +8816,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 143.51) (xy 72.39 113.03)
+			(xy 72.39 146.05) (xy 72.39 113.03)
 		)
 		(stroke
 			(width 0)
@@ -11390,7 +11316,7 @@
 	)
 	(wire
 		(pts
-			(xy 71.12 143.51) (xy 72.39 143.51)
+			(xy 71.12 146.05) (xy 72.39 146.05)
 		)
 		(stroke
 			(width 0)
@@ -12337,16 +12263,6 @@
 			(justify left bottom)
 		)
 		(uuid "559b8cec-0537-4483-a778-cd9e39e513d5")
-	)
-	(label "BUSACK"
-		(at 50.8 143.51 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "574cb6be-35fb-45ae-87c3-85d43ed5471a")
 	)
 	(label "INT"
 		(at 13.97 107.95 0)
@@ -13788,7 +13704,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "SST39SF040"
+		(property "Value" "512K-EEPROM"
 			(at 261.2233 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14494,6 +14410,94 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R_Network04")
+		(at 66.04 151.13 270)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "3447db28-5fc3-4356-938f-7c8f33e41546")
+		(property "Reference" "RN2"
+			(at 65.786 140.462 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "RN_10K"
+			(at 65.786 143.002 90)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Resistor_THT:R_Array_SIP5"
+			(at 66.04 158.115 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
+			(at 66.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "4 resistor network, star topology, bussed resistors, small symbol"
+			(at 66.04 151.13 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "b2a0e557-8927-49dd-b5ed-9838f7db9ac2")
+		)
+		(pin "2"
+			(uuid "0abe80d1-534d-44b5-a3fb-ed8aed7115fb")
+		)
+		(pin "3"
+			(uuid "83ad5a2a-ddfb-41c4-ab9f-fd48c9026a21")
+		)
+		(pin "4"
+			(uuid "bb035628-6469-4e6d-9aec-f05657f11998")
+		)
+		(pin "5"
+			(uuid "48be88e1-e0ed-4e3a-a871-87b2f64533de")
+		)
+		(instances
+			(project "Z80_512K"
+				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
+					(reference "RN2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 140.97 106.68 270)
 		(unit 1)
@@ -14883,7 +14887,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "74HC574D"
+		(property "Value" "74HC574"
 			(at 159.6233 25.4 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -16513,7 +16517,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "AS6C4008-55PCN"
+		(property "Value" "512K-SRAM"
 			(at 212.9633 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17986,8 +17990,8 @@
 				)
 			)
 		)
-		(property "Value" "CXO_DIP14"
-			(at 204.978 107.95 0)
+		(property "Value" "20MHz-DIP14"
+			(at 206.502 107.95 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -18327,97 +18331,6 @@
 			(project "Z80_512K"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
 					(reference "U6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:R_Network05")
-		(at 66.04 148.59 270)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "ec7596d6-ed92-428c-992f-e11eff926638")
-		(property "Reference" "RN2"
-			(at 65.786 137.922 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "RN_10K"
-			(at 65.786 140.462 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_THT:R_Array_SIP6"
-			(at 66.04 158.115 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/31509/csc.pdf"
-			(at 66.04 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "5 resistor network, star topology, bussed resistors, small symbol"
-			(at 66.04 148.59 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "1babd9b4-daa1-4d78-ad3e-72a1834bbc5f")
-		)
-		(pin "2"
-			(uuid "505585a0-970e-4140-9ee6-9cc376a26223")
-		)
-		(pin "3"
-			(uuid "70fe8901-fc78-4ff9-9f90-855bcdbfa740")
-		)
-		(pin "4"
-			(uuid "ca8824b3-38ec-49e5-aa5f-7ed00ecbf486")
-		)
-		(pin "5"
-			(uuid "94e0dd27-a12f-4782-a09f-1633dc655d35")
-		)
-		(pin "6"
-			(uuid "29aa0977-3bae-4476-9853-167f5e4ca997")
-		)
-		(instances
-			(project "Z80_512K"
-				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-					(reference "RN2")
 					(unit 1)
 				)
 			)
