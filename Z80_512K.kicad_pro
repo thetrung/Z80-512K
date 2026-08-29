@@ -646,24 +646,15 @@
         "filename": "Z80_512K.kicad_sch",
         "name": "Z80_512K",
         "uuid": "1dee2e6f-8929-455d-a1de-5fd790cf69ac"
-      },
-      {
-        "filename": "module_pic18f4550.kicad_sch",
-        "name": "Module_PIC18F4550",
-        "uuid": "d4a95419-11ce-4aff-a343-c80bab44ef10"
       }
     ],
-    "used_designators": "RN2,J1,J3",
+    "used_designators": "U9,D3-4,#PWR9,#PWR19,#PWR30-31,#PWR36-49,C3,C13-16,SW3,RN2,J1,J3,J8",
     "variants": []
   },
   "sheets": [
     [
       "1dee2e6f-8929-455d-a1de-5fd790cf69ac",
       "Z80_512K"
-    ],
-    [
-      "d4a95419-11ce-4aff-a343-c80bab44ef10",
-      "Module_PIC18F4550"
     ]
   ],
   "text_variables": {},
