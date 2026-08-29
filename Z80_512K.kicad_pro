@@ -524,7 +524,7 @@
     "last_paths": {
       "idf": "",
       "netlist": "",
-      "plot": "",
+      "plot": "../../../Downloads/Z80-512K/",
       "specctra_dsn": "../../../Downloads/Z80_512K.dsn",
       "vrml": ""
     },
