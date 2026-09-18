@@ -8028,6 +8028,17 @@
 		)
 		(uuid "073d2e46-5747-4ca7-b9a4-b6d07070d87a")
 	)
+	(text "RAM/ROM default Bank ~> 0\nBy Pull-Down all Outputs\nfrom 74HC574."
+		(exclude_from_sim no)
+		(at 41.91 161.544 0)
+		(effects
+			(font
+				(size 1.016 1.016)
+			)
+			(justify left)
+		)
+		(uuid "0c470c02-d9cb-4b98-90c8-1fc1d190c7c4")
+	)
 	(text "For /IOREQ devices \nto add more T-Wait cycle."
 		(exclude_from_sim no)
 		(at 13.97 116.078 0)
