@@ -240,7 +240,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": "1.1"
+      "sch_revision": "1.2"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -648,7 +648,7 @@
         "uuid": "1dee2e6f-8929-455d-a1de-5fd790cf69ac"
       }
     ],
-    "used_designators": "C5-8,C10-13",
+    "used_designators": "RN2,C5-8,C10-13",
     "variants": []
   },
   "sheets": [
