@@ -7,7 +7,7 @@
 	(title_block
 		(title "Z80_512K")
 		(date "2026-09-19")
-		(rev "1.2")
+		(rev "1.2.1")
 	)
 	(lib_symbols
 		(symbol "74xx:74HC00"
@@ -5740,6 +5740,193 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Diode:1N4148"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "D"
+				(at 0 2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "1N4148"
+				(at 0 -2.54 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" "100V 0.15A standard switching diode, DO-35"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Device" "D"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Sim.Pins" "1=K 2=A"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_keywords" "diode"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "D*DO?35*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "1N4148_0_1"
+				(polyline
+					(pts
+						(xy -1.27 1.27) (xy -1.27 -1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 0) (xy -1.27 0)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "1N4148_1_1"
+				(pin passive line
+					(at -3.81 0 0)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 3.81 0 180)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Memory_Flash:SST39SF040"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -8030,7 +8217,7 @@
 	)
 	(text "RAM/ROM default Bank ~> 0\nBy Pull-Down all Outputs\nfrom 74HC574."
 		(exclude_from_sim no)
-		(at 41.91 161.544 0)
+		(at 40.386 163.576 0)
 		(effects
 			(font
 				(size 1.016 1.016)
@@ -8243,6 +8430,12 @@
 		(uuid "15cee084-b858-411f-b652-7a1b124ad8b7")
 	)
 	(junction
+		(at 57.15 135.89)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "1ba92a19-4d07-4ab3-b538-dd9df6bd1b9f")
+	)
+	(junction
 		(at 209.55 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8333,6 +8526,12 @@
 		(uuid "d763e6a8-0c90-4f5f-9d5a-85217ec7f1e3")
 	)
 	(junction
+		(at 72.39 113.03)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "ddfa5e17-8b7f-47c5-9fe3-5efbd604f962")
+	)
+	(junction
 		(at 195.58 156.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8355,6 +8554,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "f78c5022-f8f5-4c59-a8ae-fabaad9c046a")
+	)
+	(junction
+		(at 57.15 130.81)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "f79ef7f6-c9e4-462c-9115-8f95c013e0ad")
 	)
 	(junction
 		(at 234.95 156.21)
@@ -8894,6 +9099,16 @@
 	)
 	(wire
 		(pts
+			(xy 69.85 135.89) (xy 72.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "1d677e8f-a46a-4500-9394-69c3f82876ca")
+	)
+	(wire
+		(pts
 			(xy 38.1 128.27) (xy 38.1 138.43)
 		)
 		(stroke
@@ -9031,6 +9246,16 @@
 			(type default)
 		)
 		(uuid "291d3e8d-99c4-486c-88b9-ee1df6c08dc5")
+	)
+	(wire
+		(pts
+			(xy 57.15 135.89) (xy 57.15 144.78)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "29b0de56-45f4-4813-92ed-0f8ebf3a2a34")
 	)
 	(wire
 		(pts
@@ -9604,6 +9829,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 135.89) (xy 62.23 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5e5e736e-6934-47df-abf5-5c23422fc84c")
+	)
+	(wire
+		(pts
 			(xy 144.78 43.18) (xy 139.7 43.18)
 		)
 		(stroke
@@ -9771,6 +10006,16 @@
 			(type default)
 		)
 		(uuid "6aa5148e-5f02-480b-9f17-8650f6f1f288")
+	)
+	(wire
+		(pts
+			(xy 39.37 158.75) (xy 57.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "6b805fe5-ab68-42ee-b91e-656ce97f65a6")
 	)
 	(wire
 		(pts
@@ -10464,6 +10709,16 @@
 	)
 	(wire
 		(pts
+			(xy 72.39 113.03) (xy 72.39 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b1aa5069-c006-477c-86dc-528000d6b1fb")
+	)
+	(wire
+		(pts
 			(xy 63.5 85.09) (xy 72.39 85.09)
 		)
 		(stroke
@@ -10571,6 +10826,16 @@
 			(type default)
 		)
 		(uuid "b64141a6-8d44-4811-8843-9d30ba61d626")
+	)
+	(wire
+		(pts
+			(xy 57.15 130.81) (xy 57.15 135.89)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b77750f0-4eb8-48e0-bf0d-ed8b87de939c")
 	)
 	(wire
 		(pts
@@ -10864,6 +11129,16 @@
 	)
 	(wire
 		(pts
+			(xy 57.15 130.81) (xy 60.96 130.81)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d127bfdc-7167-4777-9e77-2f64399afbe2")
+	)
+	(wire
+		(pts
 			(xy 151.13 72.39) (xy 151.13 82.55)
 		)
 		(stroke
@@ -10954,7 +11229,7 @@
 	)
 	(wire
 		(pts
-			(xy 39.37 130.81) (xy 60.96 130.81)
+			(xy 39.37 130.81) (xy 57.15 130.81)
 		)
 		(stroke
 			(width 0)
@@ -11251,6 +11526,16 @@
 			(type default)
 		)
 		(uuid "fac6f310-0212-46d2-9ed2-ebc008766fb7")
+	)
+	(wire
+		(pts
+			(xy 57.15 152.4) (xy 57.15 158.75)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "fddddc68-55af-4e91-a1c4-171b43e58c69")
 	)
 	(wire
 		(pts
@@ -15980,6 +16265,107 @@
 		)
 	)
 	(symbol
+		(lib_id "Diode:1N4148")
+		(at 66.04 135.89 180)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "85ad3f2e-0948-47d2-b435-0a6969c13135")
+		(property "Reference" "D3"
+			(at 63.246 137.16 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "1N4148"
+			(at 65.786 139.192 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "Diode_THT:D_DO-35_SOD27_P7.62mm_Horizontal"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" "https://assets.nexperia.com/documents/data-sheet/1N4148_1N4448.pdf"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "100V 0.15A standard switching diode, DO-35"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Device" "D"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Sim.Pins" "1=K 2=A"
+			(at 66.04 135.89 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "ddd271a4-0236-4e1e-9209-0e4da3507f46")
+		)
+		(pin "2"
+			(uuid "9666c293-1d32-43a5-9e2e-7c0cff2ca650")
+		)
+		(instances
+			(project "Z80_512K"
+				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
+					(reference "D3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "74xx:74HC00")
 		(at 110.49 83.82 0)
 		(unit 3)
@@ -17429,6 +17815,87 @@
 			(project "Z80_512K"
 				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
 					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 57.15 148.59 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "c3c65214-3c90-49e1-9482-fc97a01ea888")
+		(property "Reference" "C14"
+			(at 57.658 150.876 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10uF"
+			(at 57.658 146.05 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_THT:C_Radial_D4.0mm_H5.0mm_P1.50mm"
+			(at 58.1152 152.4 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 57.15 148.59 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "810f9d43-65b4-4938-a607-16545f91ab62")
+		)
+		(pin "2"
+			(uuid "52a0e830-de3c-4ece-976c-5cf3b2352e99")
+		)
+		(instances
+			(project "Z80_512K"
+				(path "/1dee2e6f-8929-455d-a1de-5fd790cf69ac"
+					(reference "C14")
 					(unit 1)
 				)
 			)
